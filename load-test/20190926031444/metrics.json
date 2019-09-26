@@ -1,0 +1,75 @@
+{
+  "id": 1,
+  "time": {
+    "data": {
+      "startTime": 1569467684747,
+      "endTime": 1569467704865
+    },
+    "units": {
+      "startTime": "UNIX time (ms)",
+      "endTime": "UNIX time (ms)"
+    }
+  },
+  "cpu": {
+    "data": {
+      "systemMean": 0.23630072512159728,
+      "systemPeak": 0.5450309959612443,
+      "processMean": 0.1476869839271867,
+      "processPeak": 0.44275791582096924
+    },
+    "units": {
+      "systemMean": "decimal fraction",
+      "systemPeak": "decimal fraction",
+      "processMean": "decimal fraction",
+      "processPeak": "decimal fraction"
+    }
+  },
+  "gc": {
+    "data": {
+      "gcTime": 0.0077777797777797775
+    },
+    "units": {
+      "gcTime": "decimal fraction"
+    }
+  },
+  "memory": {
+    "data": {
+      "usedHeapAfterGCPeak": 27089280,
+      "usedNativePeak": 55957544
+    },
+    "units": {
+      "usedHeapAfterGCPeak": "bytes",
+      "usedNativePeak": "bytes"
+    }
+  },
+  "httpUrls": {
+    "data": [
+      {
+        "url": "http://172.18.0.4:8080/",
+        "method": "GET",
+        "hits": "1937",
+        "averageResponseTime": 9.68559628291172,
+        "longestResponseTime": 51
+      },
+      {
+        "url": "http://172.18.0.4:8080/javametrics/api/v1/collections/",
+        "method": "POST",
+        "hits": "1",
+        "averageResponseTime": 1,
+        "longestResponseTime": 1
+      },
+      {
+        "url": "http://172.18.0.4:8080/health",
+        "method": "GET",
+        "hits": "3",
+        "averageResponseTime": 3.3333333333333335,
+        "longestResponseTime": 4
+      }
+    ],
+    "units": {
+      "averageResponseTime": "ms",
+      "longestResponseTime": "ms",
+      "hits": "count"
+    }
+  }
+}
